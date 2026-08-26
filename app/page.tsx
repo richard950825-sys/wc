@@ -14,7 +14,7 @@ const directionNames = [
 ];
 
 export default function Home() {
-  const [distance, setDistance] = useState('450');
+  const [distance, setDistance] = useState('251');
   const [direction, setDirection] = useState(0);
 
   return (
