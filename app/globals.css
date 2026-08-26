@@ -1,0 +1,132 @@
+@import 'tailwindcss';
+
+:root {
+  --white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: var(--white);
+  font-family: Arial, sans-serif;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.screen {
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  background: var(--white);
+}
+
+.sign {
+  container-type: inline-size;
+  position: relative;
+  width: min(100vw, calc(100svh * 1916 / 821));
+  aspect-ratio: 1916 / 821;
+  overflow: hidden;
+  user-select: none;
+}
+
+.sign > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+.distance {
+  position: absolute;
+  left: 40.5%;
+  top: 54%;
+  width: 30%;
+  height: 24%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  font-size: 8.6cqw;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.distance input {
+  min-width: 0.8em;
+  max-width: 2.9em;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  text-align: right;
+  caret-color: var(--white);
+}
+
+.direction {
+  position: absolute;
+  left: 74.5%;
+  top: 23%;
+  width: 18.5%;
+  height: 49%;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--white);
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.arrow-shape {
+  display: block;
+  width: 14cqw;
+  height: 19cqw;
+  background: var(--white);
+  clip-path: polygon(36% 0, 64% 0, 64% 54%, 100% 54%, 50% 100%, 0 54%, 36% 54%);
+  transition: transform 160ms ease;
+}
+
+.direction:focus-visible {
+  outline: max(2px, 0.15cqw) solid var(--white);
+  outline-offset: min(-5px, -0.4cqw);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .arrow-shape {
+    transition: none;
+  }
+}
