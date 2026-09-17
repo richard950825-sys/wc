@@ -1,0 +1,80 @@
+/1448;overflow:hidden}
+.live-card{position:relative;width:100%;height:100%;overflow:hidden;background:#05070a;container-type:inline-size}
+.live-frame{position:absolute;inset:0;width:100%!important;height:100%!important;object-fit:fill!important;z-index:5;pointer-events:none;user-select:none}
+.live-portrait{position:absolute;left:var(--portrait-l);top:var(--portrait-t);right:var(--portrait-r);bottom:var(--portrait-b);z-index:1;overflow:hidden;background:#10131a}
+.live-portrait img{width:100%;height:100%;object-fit:cover;filter:saturate(.88) contrast(1.03)}
+.live-shade{position:absolute;inset:0;background:linear-gradient(180deg,transparent 58%,rgba(0,0,0,.48) 100%);pointer-events:none}
+.live-bottom-bg{position:absolute;left:var(--bottom-l);top:var(--bottom-t);right:var(--bottom-r);bottom:var(--bottom-b);background:linear-gradient(180deg,#111319,#08090c);z-index:1}
+.live-faction{position:absolute;left:var(--circle-l);top:var(--circle-t);width:var(--circle-w);height:var(--circle-h);z-index:7;display:grid;place-items:center;font-family:"STKaiti","KaiTi","Kaiti SC","Songti SC",serif;font-size:clamp(22px,8cqw,44px);color:#fff0c4;text-shadow:0 2px 4px #000,0 0 7px #000;line-height:1}
+.live-rank{position:absolute;z-index:7;top:10.5%;right:8.1%;width:16%;aspect-ratio:1;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#4a2c00;background:radial-gradient(circle at 35% 30%,#f5dfa0,#c99516 68%,#795409);box-shadow:0 2px 10px rgba(0,0,0,.7),inset 0 0 0 2px rgba(255,243,204,.62);font-family:Georgia,serif}
+.live-rank small{font-size:clamp(7px,2.2cqw,12px);font-weight:700;letter-spacing:.12em;line-height:1}
+.live-rank strong{font-size:clamp(18px,7cqw,36px);line-height:1.05}
+.live-rank em{font-family:"STKaiti","KaiTi","Kaiti SC","Songti SC",serif;font-size:clamp(7px,2.3cqw,12px);font-style:normal;line-height:1}
+.live-nameplate{position:absolute;z-index:8;left:var(--plate-l);top:var(--plate-t);width:var(--plate-w);height:var(--plate-h);display:flex;align-items:center;justify-content:center;pointer-events:none}
+.live-name,.live-title{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;line-height:1;white-space:nowrap;font-family:"STKaiti","KaiTi","Kaiti SC","Songti SC",serif;pointer-events:none}
+.live-name>span,.live-title>span{display:block;flex:0 0 auto;text-align:center;font-variant-numeric:normal;font-feature-settings:"tnum" 0}
+.live-name .v-gap,.live-title .v-gap{height:.36em}
+.live-name{font-size:clamp(20px,7.0cqw,31px);gap:.08em;color:#2d2419;text-shadow:0 1px 0 rgba(255,255,255,.38);letter-spacing:0;font-weight:500;transform:translateX(2%)}
+/* title sits at the upper-left of the nameplate, outside the cream plaque */
+.live-title{position:absolute;z-index:9;left:calc(var(--plate-l) - 3.25%);top:calc(var(--plate-t) + 1.6%);font-size:clamp(11px,3.9cqw,18px);gap:.02em;color:#f7f3e8;text-shadow:-1px -1px 0 #16110d,1px -1px 0 #16110d,-1px 1px 0 #16110d,1px 1px 0 #16110d,0 2px 3px rgba(0,0,0,.9)}
+.live-signature{position:absolute;left:19%;right:7%;bottom:23.1%;z-index:7;text-align:center;font-family:"STKaiti","KaiTi","Kaiti SC","Songti SC",serif;font-size:clamp(14px,5.2cqw,25px);color:#ffe5a5;letter-spacing:.08em;text-shadow:0 2px 5px rgba(0,0,0,.95)}
+.live-skills{position:absolute;z-index:7;left:10.5%;right:8.5%;bottom:5.7%;height:15.2%;display:flex;flex-direction:column;justify-content:center;gap:clamp(1px,.65cqw,4px);overflow:hidden;color:#e8e0cf;font-size:clamp(7px,2.5cqw,12px);line-height:1.34}
+.live-skill{display:block;min-width:0}
+.live-skill b{font-family:"STKaiti","KaiTi","Kaiti SC","Songti SC",serif;color:#ffd66e;font-size:1.12em;font-weight:400;margin-right:.25em;white-space:nowrap}
+.live-skill span{color:#e8e0cf}
+@media(max-width:420px){
+ .live-title{left:calc(var(--plate-l) - 3.0%);font-size:clamp(11px,4.15cqw,17px)}
+ .live-name{font-size:clamp(20px,7.25cqw,30px)}
+ .live-skills{font-size:clamp(7px,2.42cqw,11px)}
+}
+
+</style>
+</head>
+<body data-card-render="live-html-text">
+<div class="wrap">
+<header class="hero">
+  <div class="brandline">垃圾场五号 · GROUP POWER RANKING</div>
+  <h1>阴阳怪气<br>战力榜</h1>
+  <p>统计周期 <strong>2026.08.29 — 09.17</strong>，共 <strong>16,591</strong> 条群聊消息。五维各 10 分制，综合战力取加权均衡值；语录均来自统计周期内群聊原文摘录。</p>
+  <div class="hero-stats"><span><b>TOP 5</b>入榜席位</span><span><b>10 分制</b>五维战力</span><span><b>全文</b>语义通读评定</span></div>
+</header>
+<nav class="sticky-nav" aria-label="榜单导航"><div class="nav-scroll"><a href="#rank-1" class="nav-item" style="--nav-accent:#edc86e"><span>1</span><b>2027升职生娃</b><i>9.2</i></a><a href="#rank-2" class="nav-item" style="--nav-accent:#9ac3ef"><span>2</span><b>又红又专 又穷又刁</b><i>8.7</i></a><a href="#rank-3" class="nav-item" style="--nav-accent:#83d6a5"><span>3</span><b>发</b><i>8.3</i></a><a href="#rank-4" class="nav-item" style="--nav-accent:#9ac3ef"><span>4</span><b>流影随光</b><i>8.1</i></a><a href="#rank-5" class="nav-item" style="--nav-accent:#83d6a5"><span>5</span><b>峰鸽</b><i>8.0</i></a></div></nav>
+<main>
+<section class="rank-section" id="rank-1" style="--accent:#d65c43;--accent2:#edc86e;--soft:rgba(214,92,67,.16)">
+  <div class="rank-head reveal">
+    <div class="rank-orb"><small>TOP</small><strong>1</strong><span>壹</span></div>
+    <div class="rank-titlebox">
+      <p class="eyebrow">第 1 名 · 综合战力 9.2</p>
+      <h2>2027升职生娃</h2>
+      <h3>「劳改文学大宗师」</h3>
+    </div>
+  </div>
+
+  <div class="rank-grid">
+    <div class="card-column reveal">
+      <div class="card-shell live-card-shell">
+      <div class="live-card" style="--portrait-l:17.40331%;--portrait-t:8.21823%;--portrait-r:10.58932%;--portrait-b:23.89503%;--bottom-l:9.11602%;--bottom-t:77.96961%;--bottom-r:10.68140%;--bottom-b:8.56354%;--plate-l:8.56354%;--plate-t:17.81768%;--plate-w:7.09024%;--plate-h:48.48066%;--circle-l:7.27440%;--circle-t:4.14365%;--circle-w:8.93186%;--circle-h:7.25138%;--card-accent:#d4af5a;">
+        <div class="live-portrait"><img src="data:image/jpeg;base64,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" alt=""><div class="live-shade"></div></div>
+        <div class="live-bottom-bg"></div>
+        <img class="live-frame" data-frame="red" alt="" draggable="false">
+        <div class="live-faction">群</div>
+        <div class="live-rank"><small>TOP</small><strong>1</strong><em>壹</em></div>
+        <div class="live-nameplate">
+          <span class="live-name" aria-label="2027升职生娃"><span>2</span><span>0</span><span>2</span><span>7</span><span>升</span><span>职</span><span>生</span><span>娃</span></span>
+        </div>
+        <span class="live-title" aria-label="劳改文学大宗师"><span>劳</span><span>改</span><span>文</span><span>学</span><span>大</span><span>宗</span><span>师</span></span>
+        <div class="live-signature">「我们都有光明的前程」</div>
+        <div class="live-skills"><div class="live-skill"><b>【感恩】</b><span>锁定技，东家一有难，你须当众发表感恩言论，令全体群友破防。</span></div><div class="live-skill"><b>【听说】</b><span>你以「我听人说」开头的暴论无需举证，且不可被质疑。</span></div><div class="live-skill"><b>【合影】</b><span>限定技，展示一张团队合影，四个月内合影中所有人依次跑路。</span></div></div>
+      </div>
+    </div>
+      <div class="signature">“我们都有光明的前程”</div>
+      <div class="mini-meta">
+        <span><i>微信名</i>南有乔木</span>
+        <span><i>近20天发言</i>2,589 条</span>
+      </div>
+    </div>
+
+    <div class="detail-column">
+      <div class="panel score-panel reveal">
+        <div class="panel-head"><span>五维战力</span><b>9.2</b></div>
+        <div class=
