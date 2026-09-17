@@ -1,0 +1,58 @@
+xrcrUne/gYaceEOaRVJ5byoSht0JB7bYuMciRxiMPuOnrbGJJQGErIp2t5fvijneaUnGFSk9IxzOry+piMT8l6fUQVINgwAH1viEykcS5PRT0Yrc/wAjpoZHeJJstWrQqTsAy3sxO9tWkfO57CJfeoiFTY7G++By1jUkelke4NgQvh/li4syq3DmdtLCdVVm7m+4rqIRgn0KgC3rizx1gY69cajpbTjWOdJvE06oOhva/rgUsLKY5YHUi9tGwBHcjrhqGpaWGe7yNa/XxW2tiCkvA7xFnk/IR0PrfztiVWN6imuZWuSbW7gd8J1UdBHTOtTPKzgbgMB1/bDTAIaiMxRoPxvcAb2AxKNNFRUomdWAcgFOp39OuKTmPFNNRcmhy14xUzAILL3J/N64TOSZ9mXMphVU0EYkYG1QQ0hI36L699/PHKb+4sVf/9k=" alt=""><div class="live-shade"></div></div>
+        <div class="live-bottom-bg"></div>
+        <img class="live-frame" data-frame="green" alt="" draggable="false">
+        <div class="live-faction">群</div>
+        <div class="live-rank"><small>TOP</small><strong>5</strong><em>伍</em></div>
+        <div class="live-nameplate">
+          <span class="live-name" aria-label="峰鸽"><span>峰</span><span>鸽</span></span>
+        </div>
+        <span class="live-title" aria-label="「这是好事啊」首席分析师"><span>「</span><span>这</span><span>是</span><span>好</span><span>事</span><span>啊</span><span>」</span><span>首</span><span>席</span><span>分</span><span>析</span><span>师</span></span>
+        <div class="live-signature">「这是好事啊」</div>
+        <div class="live-skills"><div class="live-skill"><b>【好事】</b><span>每当群内出现坏消息，你须面无表情地宣布「这是好事啊」。</span></div><div class="live-skill"><b>【加钟】</b><span>限定技，当群友遭遇不幸时，你可以开出一张缺德处方，伤害+1。</span></div></div>
+      </div>
+    </div>
+      <div class="signature">“这是好事啊”</div>
+      <div class="mini-meta">
+        <span><i>微信名</i>。zz</span>
+        <span><i>近20天发言</i>699 条</span>
+      </div>
+    </div>
+
+    <div class="detail-column">
+      <div class="panel score-panel reveal">
+        <div class="panel-head"><span>五维战力</span><b>8.0</b></div>
+        <div class="score-layout">
+          <div class="radar"><svg viewBox="0 0 240 230" aria-label="五维雷达图"><polygon points="120.0,98.0 137.1,110.4 130.6,130.6 109.4,130.6 102.9,110.4" class="radar-ring"/><polygon points="120.0,80.0 154.2,104.9 141.2,145.1 98.8,145.1 85.8,104.9" class="radar-ring"/><polygon points="120.0,62.0 171.4,99.3 151.7,159.7 88.3,159.7 68.6,99.3" class="radar-ring"/><polygon points="120.0,44.0 188.5,93.8 162.3,174.2 77.7,174.2 51.5,93.8" class="radar-ring"/><line x1="120" y1="116" x2="120.0" y2="44.0" class="radar-axis"/><line x1="120" y1="116" x2="188.5" y2="93.8" class="radar-axis"/><line x1="120" y1="116" x2="162.3" y2="174.2" class="radar-axis"/><line x1="120" y1="116" x2="77.7" y2="174.2" class="radar-axis"/><line x1="120" y1="116" x2="51.5" y2="93.8" class="radar-axis"/><polygon points="120.0,54.8 174.8,98.2 149.6,156.8 84.0,165.5 65.2,98.2" fill="#83d6a5" fill-opacity=".24" stroke="#83d6a5" stroke-width="2"/><circle cx="120.0" cy="54.8" r="3" fill="#83d6a5"/><circle cx="174.8" cy="98.2" r="3" fill="#83d6a5"/><circle cx="149.6" cy="156.8" r="3" fill="#83d6a5"/><circle cx="84.0" cy="165.5" r="3" fill="#83d6a5"/><circle cx="65.2" cy="98.2" r="3" fill="#83d6a5"/><text x="120" y="18" text-anchor="middle" class="radar-label">杀伤力<tspan x="120" dy="16" class="radar-value">8.5</tspan></text><text x="214" y="84" text-anchor="start" class="radar-label">隐蔽性<tspan x="214" dy="16" class="radar-value">8</tspan></text><text x="181" y="212" text-anchor="start" class="radar-label">出勤率<tspan x="181" dy="16" class="radar-value">7</tspan></text><text x="59" y="212" text-anchor="end" class="radar-label">文学性<tspan x="59" dy="16" class="radar-value">8.5</tspan></text><text x="26" y="84" text-anchor="end" class="radar-label">带动力<tspan x="26" dy="16" class="radar-value">8</tspan></text></svg></div>
+          <div class="stats"><div class="stat-row"><div class="stat-line"><span>杀伤力</span><b>8.5</b></div><div class="bar"><i style="width:85%"></i></div></div><div class="stat-row"><div class="stat-line"><span>隐蔽性</span><b>8</b></div><div class="bar"><i style="width:80%"></i></div></div><div class="stat-row"><div class="stat-line"><span>出勤率</span><b>7</b></div><div class="bar"><i style="width:70%"></i></div></div><div class="stat-row"><div class="stat-line"><span>文学性</span><b>8.5</b></div><div class="bar"><i style="width:85%"></i></div></div><div class="stat-row"><div class="stat-line"><span>带动力</span><b>8</b></div><div class="bar"><i style="width:80%"></i></div></div></div>
+        </div>
+      </div>
+      <div class="panel skill-panel reveal">
+        <div class="panel-head"><span>专属技能</span><b>SKILL</b></div>
+        <div class="skills"><div class="skill"><span>【好事】</span><p>每当群内出现坏消息，你须面无表情地宣布「这是好事啊」。</p></div><div class="skill"><span>【加钟】</span><p>限定技，当群友遭遇不幸时，你可以开出一张缺德处方，伤害+1。</p></div></div>
+      </div>
+      <div class="quote-list reveal">
+        <div class="quote-title"><span>阴阳语录 · 摘</span><i>04</i></div>
+        <article class="quote"><div class="quote-meta"><time>09-07</time><span>痛心疾首三连问，图穷匕见是求资源</span></div><blockquote>「道德在哪里？底线在哪里？视频链接在哪里？」</blockquote></article><article class="quote"><div class="quote-meta"><time>09-09</time><span>对坠楼新闻开出的缺德处方</span></div><blockquote>「所以为了保证心理健康，记得加钟[抱拳]」</blockquote></article><article class="quote"><div class="quote-meta"><time>09-09</time><span>向中医信徒提出的虔诚提问</span><em>行 9793</em></div><blockquote>「炼金术士会给自己配置什么魔药？」</blockquote></article><article class="quote"><div class="quote-meta"><time>09-09</time><span>夸人搬运有增量，夸得越真骂得越狠</span></div><blockquote>「还别说，你搬的💩好多我都没看过。」</blockquote></article>
+      </div>
+    </div>
+  </div>
+</section></main>
+<footer class="footer"><b>判定口径：</b>明褒实贬、捧杀、装无辜、递刀子等群聊语义综合评定。五维各 10 分制，综合战力为加权均衡值；语录按原聊天上下文摘录。</footer>
+</div>
+<script>
+const reveals=[...document.querySelectorAll('.reveal')];
+if('IntersectionObserver' in window){
+ const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}}),{threshold:.08,rootMargin:'40px 0px'});
+ reveals.forEach(el=>io.observe(el));
+} else reveals.forEach(el=>el.classList.add('on'));
+const items=[...document.querySelectorAll('.nav-item')];
+const sections=[...document.querySelectorAll('.rank-section')];
+const nio=new IntersectionObserver(es=>{
+ es.filter(e=>e.isIntersecting).sort((a,b)=>b.intersectionRatio-a.intersectionRatio).slice(0,1).forEach(e=>{
+   const id=e.target.id;items.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+id));
+ });
+},{rootMargin:'-30% 0px -58% 0px',threshold:[0,.1,.5]});
+sections.forEach(s=>nio.observe(s));
+</script>
+
+<script>const __frames={"red":"data:image/webp;base64,UklGRn5/AABXRUJQVlA4WAoAAAAQAAAA3wEAfwIAQUxQSEQzAAABGYZt20aC1Mt9vv0X7ofbIKL/ExDWNa4cSgBpnYpwP9c90aKqahJl7vAXdpzVDhv1z3XVIB4d1zX4WG2aJVWo7gGiLDcTSJIuiXrQtm0b6v+zk3TsHBETgB4Jm1T0qG/2ouQynlu6lV6ld1rk/1u2bY7CVQzFzMzMzEkxFFMVMzMzM2OlmJmZuZiZmZk5uc7rvI7rfO7nfs4r+I1ijuo6QiqOrgV0xbfqVu0Cr4trlQW0ahdyca+K71ahrju4APq5KE7cESaF1wZS8dg7IBnOErKBFKt2QYVd8akrpFgdUe2iOL8lBO+wShSrRHGaXFRaBffwNrl2rYIqK7hU+9Ahw6wytINUPTsYVDyvet3AG5UFjMKuqOHgBt5ltDuH1Dg6q32/alDOAhhf1QuIHHQ8nmd8VxbQ7LsiIiZgAnhl+ydJkmTp8pzr4Q90uVVRUTERcw/NWT8eisIpFaHZCOUsGD4egiIoNaJZEAUK4fFDEZQOoabkKJTJYEhEsxFqSobCKBWhoZQsImICDiQPWPUDJU1IDozWjAN3H+5TYkKaXLQG5HvHYTlKh+8gZFKykUggcs4HqVe6VzFJ+N50HJSDMaVbxJSSbcjKuSguFklFTskog6zlveR6/adXMhO8v26v12Qt79u1liskMmf8+lrXf/yfvPxa95KZmRn8et9rFa5rJkF1ve/5599XdN33ct15/bq43+S6ApmJy5VkRubrO36ZzKz7veaVLHQJTJhJXO97kbz+/J73v/vp9cr9ded6XcT17//6Msl1XeBSSHFOSYwIgjDDer+Zc05YimuZ64prmQmKSyQzuOTX37/CWi4yk0lc71tRyUpOlFkvklWK4qJLgGO3uHtH7+BEq2kinYIzdIwO1SprrkXwGJCPOyAkcfHwifIZTtfr+p2NqdUsiQtzzkhxZcAgBB4QWFhYYDCgUWQZuZZkT7ZCaiIQCQgBJB5JEwsB9wIIwUIKHgAi2wACEbIjmD1DsCo7lgLGirgJtgtmz2OpMy004BqyqqwNjsHFugrPaDUrnZef3hdZWaZSBDaVwgMyoqFSG/Yl7EoxWAgP3mTTa0DaC5DCQQndmyO7QYqWUmgawApEpQGBqbvyRifrMsykBuV0rM7evpQRaMBCgEEVFlhgwgo8TKEemo20DwgEsOJ4wFKwLgih0orsyGMDWBWrAkKsaBu2Fo5mRyCFoyK0UZ7enZN3mlJuEJyeQ3IPpqKuCOwqgQFVVRtEeIEAkmMfYgALH3SQTrNxb4xG6tOZ2SCpKVI6FMevK0J1Gi4zTjf1aWYKQrpxkx6qhXTiJk+iVshDWqvKNQbz4mjtw41BHIHD02VEpTyaPKAxVBtQiLZpIfVBIBU22k+FhRQspUJ6DdI+e1YES7FdwM3Dc0gVNT1MktIGP0Bu0ItskCQAAQKrXmPdIFKyFJDBgwRkP1IbkM9yakRoMygOB24MHKJ+BQvE2jMgZ62rnhHUnJmYwPY0WRMWIYEaZSaxDTLM0YDakmDw42uymZvxu0ptQNj1g8sNgs6gsRjACEDrapJSqPUDE2A3J5rx2jbKJCNJ6wzxCWBX
