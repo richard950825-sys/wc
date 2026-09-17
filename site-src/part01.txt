@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#090b0f">
+<title>阴阳怪气战力榜 · 垃圾场五号</title>
+<style>
+:root{color-scheme:dark;--bg:#090b0f;--panel:#11141a;--line:#252a33;--text:#f3efe6;--muted:#9ca3ad;--gold:#d8b55d;--safe:env(safe-area-inset-top)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;background:var(--bg)}
+body{margin:0;background:
+radial-gradient(900px 480px at 50% -120px,rgba(216,181,93,.09),transparent 62%),
+linear-gradient(180deg,#0d1016 0,#090b0f 18%,#090b0f 100%);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif;line-height:1.55;overflow-x:hidden}
+body:before{content:"阴";position:fixed;right:-.08em;bottom:-.2em;font-family:"STKaiti","KaiTi","Kaiti SC","Songti SC",serif;font-size:min(72vw,720px);line-height:1;color:rgba(216,181,93,.018);pointer-events:none;z-index:0}
+a{color:inherit;text-decoration:none} img{display:block;max-width:100%}
+.wrap{position:relative;z-index:1}
+.hero{min-height:440px;padding:calc(34px + var(--safe)) 20px 30px;display:flex;flex-direction:column;justify-content:flex-end;max-width:1180px;margin:auto}
+.brandline{display:flex;align-items:center;gap:10px;color:var(--gold);font-size:12px;letter-spacing:.18em;text-transform:uppercase;margin-bottom:18px}
+.brandline:before{content:"";width:30px;height:1px;background:currentColor}
+.hero h1{font-family:"STKaiti","KaiTi","Kaiti SC","Songti SC",serif;font-weight:400;font-size:clamp(50px,15vw,98px);line-height:.96;letter-spacing:.04em;margin:0;background:linear-gradient(180deg,#fff7df 12%,#d8b55d 90%);-webkit-background-clip:text;color:transparent;text-shadow:0 8px 34px rgba(216,181,93,.11)}
+.hero p{max-width:650px;color:#bec4cc;margin:18px 0 0;font-size:14px}
+.hero p strong{color:#fff;font-weight:600}
+.hero-stats{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}
+.hero-stats span{padding:8px 11px;border:1px solid #2b3039;border-radius:999px;background:rgba(255,255,255,.025);font-size:12px;color:#c8cbd0}
+.hero-stats b{color:#f4d989;margin-right:5px}
+
+.sticky-nav{position:sticky;top:0;z-index:20;padding:10px 12px;background:rgba(9,11,15,.82);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-top:1px solid rgba(255,255,255,.04);border-bottom:1px solid rgba(255,255,255,.06)}
+.nav-scroll{display:flex;gap:8px;overflow:auto;scrollbar-width:none;max-width:1180px;margin:auto;padding:0 1px;scroll-snap-type:x proximity}
+.nav-scroll::-webkit-scrollbar{display:none}
+.nav-item{flex:0 0 auto;min-width:112px;padding:8px 10px;border:1px solid #282d35;border-radius:12px;background:#11141a;display:grid;grid-template-columns:24px 1fr auto;align-items:center;gap:7px;scroll-snap-align:start;transition:.2s}
+.nav-item span{width:24px;height:24px;border-radius:50%;display:grid;place-items:center;background:var(--nav-accent);color:#091018;font-family:Georgia,serif;font-weight:800;font-size:12px}
+.nav-item b{font-size:11px;white-space:nowrap;max-width:88px;overflow:hidden;text-overflow:ellipsis}
+.nav-item i{font-family:Georgia,serif;color:var(--nav-accent);font-style:normal;font-weight:700;font-size:11px}
+.nav-item.active{border-color:var(--nav-accent);box-shadow:0 0 20px rgba(0,0,0,.18)}
+
+.rank-section{scroll-margin-top:72px;padding:48px 18px 70px;max-width:1180px;margin:auto;border-top:1px solid rgba(255,255,255,.055)}
+.rank-head{display:flex;align-items:center;gap:15px;margin-bottom:22px}
+.rank-orb{width:70px;height:70px;border-radius:20px;border:1px solid var(--accent2);background:linear-gradient(145deg,var(--soft),rgba(255,255,255,.02));display:grid;grid-template-columns:1fr 1fr;grid-template-rows:18px 1fr;align-items:center;justify-items:center;box-shadow:0 15px 40px rgba(0,0,0,.28);flex:none;overflow:hidden}
+.rank-orb small{grid-column:1/3;font-size:8px;letter-spacing:.22em;color:var(--accent2);align-self:end}
+.rank-orb strong{font-family:Georgia,serif;font-size:33px;line-height:1;color:#fff;justify-self:end}
+.rank-orb span{font-family:"STKaiti","KaiTi","Kaiti SC","Songti SC",serif;color:var(--accent2);font-size:18px;justify-self:start;margin-left:4px}
+.eyebrow{margin:0 0 2px;color:var(--accent2);font-size:10px;letter-spacing:.14em;text-transform:uppercase}
+.rank-titlebox h2{font-family:"STKaiti","KaiTi","Kaiti SC","Songti SC",serif;font-weight:400;font-size:clamp(33px,10vw,60px);line-height:1.05;margin:0;color:#fff5dc;letter-spacing:.04em}
+.rank-titlebox h3{margin:4px 0 0;color:var(--accent2);font-size:13px;font-weight:500}
+.rank-grid{display:grid;gap:22px}
+.card-column{min-width:0}
+.card-shell{position:relative;border-radius:18px;overflow:hidden;background:#07090c;border:1px solid rgba(255,255,255,.08);box-shadow:0 24px 60px rgba(0,0,0,.34)}
+.card-shell:after{content:"";position:absolute;inset:0;border-radius:inherit;box-shadow:inset 0 0 0 1px rgba(255,255,255,.03);pointer-events:none}
+.card-shell img{width:100%;aspect-ratio:580/815;object-fit:cover}
+.signature{margin:11px 0 0;padding:12px 14px;border-left:2px solid var(--accent2);background:linear-gradient(90deg,var(--soft),transparent);font-family:"STKaiti",serif;font-size:15px;color:#f2e9d0}
+.mini-meta{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
+.mini-meta span{padding:10px 11px;border:1px solid #272c34;border-radius:11px;background:#101319;font-size:12px;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mini-meta i{display:block;font-style:normal;color:#777f8a;font-size:9px;margin-bottom:2px}
+.detail-column{display:grid;gap:12px;min-width:0}
+.panel{border:1px solid #292e37;border-radius:16px;background:linear-gradient(180deg,rgba(255,255,255,.025),rgba(255,255,255,.012));overflow:hidden}
+.panel-head{height:45px;padding:0 14px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #252a32}
+.panel-head span{font-size:12px;letter-spacing:.16em;color:#e5d5ad}
+.panel-head b{font-family:Georgia,serif;color:var(--accent2);font-size:15px}
+.score-layout{display:grid;grid-template-columns:1fr;gap:4px;padding:10px 12px 15px}
+.radar{display:grid;place-items:center;min-height:220px}
+.radar svg{width:min(100%,260px);height:auto;overflow:visible}
+.radar-ring,.radar-axis{fill:none;stroke:#303642;stroke-width:1}
+.radar-axis{opacity:.72}
+.radar-label{fill:#aeb5be;font-size:10px;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}
+.radar-value{fill:var(--accent2);font-size:10px;font-weight:700}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:10px 12px;padding:3px 2px 4px}
+.stat-row:last-child{grid-column:1/-1}
+.stat-line{display:flex;justify-content:space-between;align-items:center;font-size:10px;color:#abb1b9;margin-bottom:4px}
+.stat-line b{font-family:Georgia,serif;color:var(--accent2);font-size:11px}
+.bar{height:4px;border-radius:99px;background:#20242b;overflow:hidden}
+.bar i{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,var(--accent),var(--accent2))}
+.skills{padding:4px 14px 11px}
+.skill{padding:11px 0;border-bottom:1px dashed #2a2f37}
+.skill:last-child{border-bottom:0}
+.skill span{color:var(--accent2);font-family:"STKaiti",serif;font-weight:700;font-size:13px}
+.skill p{margin:3px 0 0;font-size:12px;color:#d3d5d8;line-height:1.75}
+.quote-list{margin-top:2px}
+.quote-title{height:44px;display:flex;align-items:center;justify-content:space-between;color:#e5d5ad;font-size:12px;letter-spacing:.16em}
+.quote-title i{font-style:normal;color:#5d646e;font-family:Georgia,serif;letter-spacing:0}
+.quote{position:relative;padding:14px 14px 15px;margin-bottom:8px;border:1px solid #282d35;border-radius:14px;background:#101319;overflow:hidden}
+.quote:before{content:"“";position:absolute;right:8px;top:-16px;font-family:Georgia,serif;font-size:78px;line-height:1;color:var(--soft);pointer-events:none}
+.quote-meta{display:flex;align-items:center;gap:8px;position:relative;z-index:1;color:#858c96;font-size:9px;min-width:0}
+.quote-meta time{padding:2px 6px;border:1px solid var(--accent);border-radius:4px;color:var(--accent2);font-family:Georgia,serif;font-size:9px;letter-spacing:.04em}
+.quote-meta span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;flex:1}
+.quote-meta em{font-style:normal;color:#5e6671;white-space:nowrap}
+blockquote{position:relative;z-index:1;margin:8px 0 0;font-family:"STKaiti",serif;font-size:14px;line-height:1.85;color:#f0eadc}
+
+.footer{max-width:1180px;margin:auto;padding:24px 18px calc(48px + env(safe-area-inset-bottom));border-top:1px solid #232831;color:#757d87;font-size:10px;line-height:1.8}
+.footer b{color:#b69b5d;font-weight:500}
+.reveal{opacity:0;transform:translateY(12px);transition:opacity .5s ease,transform .5s ease}
+.reveal.on{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}}
+@media (min-width:700px){
+ .hero{min-height:520px;padding-left:28px;padding-right:28px}
+ .sticky-nav{padding-left:20px;padding-right:20px}
+ .rank-section{padding:66px 28px 90px}
+ .rank-grid{grid-template-columns:minmax(290px,380px) 1fr;gap:34px;align-items:start}
+ .card-column{position:sticky;top:84px}
+ .score-layout{grid-template-columns:280px 1fr;align-items:center;padding:16px 18px}
+ .stats{grid-template-columns:1fr;gap:13px}
+ .stat-row:last-child{grid-column:auto}
+ .detail-column{gap:14px}
+ blockquote{font-size:15px}
+}
+@media (min-width:1040px){
+ .hero{min-height:560px}
+ .rank-grid{grid-template-columns:400px 1fr;gap:48px}
+ .rank-head{margin-bottom:30px}
+ .rank-orb{width:82px;height:82px}
+ .rank-orb strong{font-size:40px}
+ .rank-titlebox h3{font-size:15px}
+ .score-layout{grid-template-columns:310px 1fr}
+ .radar{min-height:250px}
+ .stats{grid-template-columns:1fr 1fr}
+ .stat-row:last-child{grid-column:1/-1}
+}
+
+/* live card: all plaque text below remains actual HTML text, not baked into a bitmap */
+.live-card-shell{background:#05070a;aspect-ratio:1086
